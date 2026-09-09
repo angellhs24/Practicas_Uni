@@ -10,7 +10,26 @@
     <input type="text" id="nombre">
     <label>Telefono: </label>
     <input type="tel" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" id="telefono" placeholder="55-1234-5678" maxlength="10" minlength="10">
-    <label>Calendario</label>
-    <input type="datetime-local" max="2026-12-31T23:59" min="2025-01-31T00:01">
+    <div>
+        <label>Calendario</label>
+        <input type="datetime-local" max="2026-12-31T23:59" min="2025-01-31T00:01">
+    </div>
+    <div>
+        <label>Correo: </label>
+        <input type="email">
+        <input type="submit" value="Guardar">
+    </div>
+    <div>
+        <h1>Selección Multiple</h1>
+        <input type="checkbox" id="suma" checked><label>Sumar</label>
+        <input type="checkbox" id="resta"><label>Restar</label>
+        <input type="checkbox" id="multiplicacion"><label>Multiplicar</label>
+        <input type="checkbox" id="division"><label>Dividir</label>
+    </div>
+    <div>
+        <h1>Selección Simple</h1>
+        <input type="radio"><label>Correo</label>
+        <input type="radio" checked><label>Telefono</label>
+    </div>
 </body>
 </html>
