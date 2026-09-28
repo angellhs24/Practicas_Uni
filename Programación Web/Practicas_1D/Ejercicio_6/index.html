@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Notificar incidencia</title>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <!-- Grupo 1: Datos de la incidencia -->
+        <fieldset>
+            <legend>Datos de la incidencia:</legend>
+            
+            <p>
+                <label for="usuario">Usuario:</label><br>
+                <input type="text" id="usuario" name="usuario">
+            </p>
+
+            <p>
+                <label for="departamento">Departamento:</label><br>
+                <select id="departamento" name="departamento">
+                    <option value="informatica" selected>Informática</option>
+                    <option value="recursos_humanos">Recursos Humanos</option>
+                    <option value="contabilidad">Contabilidad</option>
+                    <option value="ventas">Ventas</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="descripcion">Descripción:</label><br>
+                <textarea id="descripcion" name="descripcion" rows="4" cols="50" placeholder="Describa la incidencia..."></textarea>
+            </p>
+
+            <p>
+                <label for="password">Contraseña:</label><br>
+                <input type="password" id="password" name="password">
+            </p>
+        </fieldset>
+
+        <!-- Grupo 2: Botones -->
+        <fieldset>
+            <legend>Botones de reset y envío:</legend>
+            <input type="reset" value="Resetear">
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+</body>
+</html>
