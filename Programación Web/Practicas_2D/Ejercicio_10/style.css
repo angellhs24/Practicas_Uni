@@ -1,0 +1,129 @@
+/* =====================================================
+   Ejercicio 10 - Catálogo de Productos TechStore
+   Estilo moderno, limpio y tecnológico
+   ===================================================== */
+
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+    color: #1e293b;
+    margin: 0;
+    padding: 30px 20px;
+    line-height: 1.5;
+}
+
+/* Contenedor central */
+header,
+main,
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 25px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    margin-bottom: 25px;
+}
+
+header h1 {
+    color: #1d4ed8;
+    margin: 0 0 8px 0;
+    font-size: 28px;
+}
+
+header p {
+    color: #64748b;
+    margin: 0;
+    font-size: 15px;
+}
+
+/* Secciones de categorías */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #1e40af;
+    font-size: 20px;
+    border-bottom: 2px solid #bfdbfe;
+    padding-bottom: 6px;
+    margin-bottom: 18px;
+}
+
+/* Tarjeta individual de cada producto */
+article {
+    background-color: #ffffff;
+    padding: 20px 24px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e2e8f0;
+}
+
+article h3 {
+    margin-top: 0;
+    color: #0f172a;
+    font-size: 18px;
+}
+
+/* Imágenes de los productos */
+article img {
+    display: block;
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 12px 0;
+    border: 1px solid #e2e8f0;
+}
+
+/* Lista de características del producto */
+article ul {
+    background-color: #f8fafc;
+    padding: 12px 20px 12px 35px;
+    border-radius: 6px;
+    margin: 12px 0;
+    font-size: 14px;
+}
+
+article li {
+    margin-bottom: 5px;
+    color: #334155;
+}
+
+article li strong {
+    color: #1e293b;
+}
+
+/* Precio destacado */
+article p {
+    font-size: 16px;
+    margin: 10px 0 0 0;
+}
+
+article p strong {
+    color: #15803d;
+    font-size: 17px;
+}
+
+/* Líneas divisorias */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #cbd5e1;
+    margin: 25px 0;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    color: #64748b;
+    font-size: 13px;
+}

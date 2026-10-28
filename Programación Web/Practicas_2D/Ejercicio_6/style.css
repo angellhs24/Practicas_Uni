@@ -1,0 +1,116 @@
+/* =====================================================
+   Ejercicio 6 - Formulario de Notificar Incidencia
+   Estilos sencillos y limpios para formularios
+   ===================================================== */
+
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef2f7;
+    color: #333333;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+/* Contenedor del formulario */
+form {
+    max-width: 520px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Agrupaciones con fieldset */
+fieldset {
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background-color: #fafbfc;
+}
+
+/* Títulos de los grupos (legend) */
+legend {
+    font-weight: bold;
+    color: #1e3a8a;
+    padding: 0 8px;
+    font-size: 15px;
+}
+
+/* Párrafos que contienen los campos */
+p {
+    margin: 12px 0;
+}
+
+/* Etiquetas de texto */
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4b5563;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* Campos de texto, contraseña, selector y área de texto */
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    box-sizing: border-box; /* Asegura que el padding no desborde el ancho */
+    background-color: #ffffff;
+}
+
+/* Efecto al hacer foco en un campo */
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #2563eb;
+    outline: none;
+    box-shadow: 0 0 4px rgba(37, 99, 235, 0.3);
+}
+
+/* Área de texto */
+textarea {
+    resize: vertical;
+}
+
+/* Botones de envío y reset */
+input[type="submit"],
+input[type="reset"] {
+    padding: 9px 18px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Botón de Enviar (azul) */
+input[type="submit"] {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+input[type="submit"]:hover {
+    background-color: #1d4ed8;
+}
+
+/* Botón de Resetear (gris) */
+input[type="reset"] {
+    background-color: #e2e8f0;
+    color: #475569;
+}
+
+input[type="reset"]:hover {
+    background-color: #cbd5e1;
+}
